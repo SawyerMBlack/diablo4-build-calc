@@ -193,7 +193,7 @@ var pixiBackground = PIXI.Sprite.from(PIXI.Texture.EMPTY);
 var pixiTooltip = new PIXI.Container();
 var pixiDragging = null;
 
-var debugMode = false;
+var debugMode = true;
 var clampMode = readCookie("clampMode") == "true" ? true : false;
 
 var touchTimer = null;
